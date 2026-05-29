@@ -1,0 +1,135 @@
+﻿Analyses,Catégories de patients,Critères,Limites basses,Limites hautes,Unités
+Acide urique,Femme,[],143,339,µmol/L
+Acide urique,Homme,[],202,416,µmol/L
+Acide urique (urines),Tous,[],1.5,4.5,mmol/L
+Acides Gras Non Estérifiés,Tous,[],0.13,0.6,mmol/L
+ALAT,Femme,[],5,33,UI/L à 37°C
+ALAT,Homme,[],5,41,UI/L à 37°C
+Albumine,0-4J,[],28,44,g/L
+Albumine,4J-14A,[],38,54,g/L
+Albumine,14-18A,[],32,45,g/L
+Albumine,>18Ans,[],35,52,g/L
+Ammoniémie,Femme,[],11,51,µmol/L
+Ammoniémie,Homme,[],16,60,µmol/L
+Amylase,Tous,[],28,100,UI/L à 37°C
+Amylase (urines),Tous,[],10,350,UI/L à 37°C
+ASAT,Femme,[],5,32,UI/L à 37°C
+ASAT,Homme,[],5,40,UI/L à 37°C
+Bêta 2 microglobuline,Tous,[],0.8,2.2,mg/L
+Bêta hCG totale,Femme,<,,7,UI/L
+Bêta hCG totale,Homme,<,,2,UI/L
+Bicarbonates,Tous,[],22,29,mmol/L
+Bilirubine,>15A Femme,[],2.5,15,µmol/L
+Bilirubine,>15A Homme,[],2.5,24,µmol/L
+Bilirubine,0-1J,[],25,150,µmol/L
+Bilirubine,1-2J,[],60,200,µmol/L
+Bilirubine,3-5J,[],25,200,µmol/L
+Bilirubine,5-30J,[],5,20,µmol/L
+Bilirubine,1M-15A,[],2.5,17,µmol/L
+Bilirubine conjugée,Tous,[],0,5,µmol/L
+Calcium,0-3J,[],1.9,2.6,mmol/L
+Calcium,4-7J,[],1.9,2.6,mmol/L
+Calcium,8-14J,[],1.9,2.6,mmol/L
+Calcium,15-30J,[],2.25,2.75,mmol/L
+Calcium,1M-16A,[],2.2,2.75,mmol/L
+Calcium,Tous,[],2.15,2.5,mmol/L
+Calcium ionisé,0-1J,[],0.8,1.34,mmol/L
+Calcium ionisé,2-6J,[],1,1.17,mmol/L
+Calcium ionisé,Tous,[],1.15,1.3,mmol/L
+Chlorures,Tous,[],98,107,mmol/L
+Chlorures (urines),Tous,[],60,150,mmol/L
+Cholestérol,Tous,<,,5.2,mmol/L
+Cholestérol,Tous,<,,2.01,g/L
+Créatine kinase,Femme,[],26,192,UI/L à 37°C
+Créatine kinase,Homme,[],39,308,UI/L à 37°C
+Créatinine,0-2M,[],27,77,µmol/L
+Créatinine,2-12M,[],14,34,µmol/L
+Créatinine,1-3A,[],15,31,µmol/L
+Créatinine,3-5A,[],23,37,µmol/L
+Créatinine,5-7A,[],25,42,µmol/L
+Créatinine,7-9A,[],30,47,µmol/L
+Créatinine,9-11A,[],29,56,µmol/L
+Créatinine,11-13A,[],39,60,µmol/L
+Créatinine,13-15A,[],40,68,µmol/L
+Créatinine,Femme,[],45,84,µmol/L
+Créatinine,Homme,[],59,104,µmol/L
+Créatinine (urines),Femme,[],2.6,20,mmol/L
+Créatinine (urines),Homme,[],3.5,24.6,mmol/L
+CRP,Tous,<,,5,mg/L
+eDFG (MDRD),Tous,[],100,140,"mL/min/1,73m2"
+Fer,Tous,[],5.83,34.5,µmol/L
+Ferritine,Femme,[],13,150,µg/L
+Ferritine,Homme,[],30,400,µg/L
+Gamma-GT,Femme,[],6,42,UI/L à 37°C
+Gamma-GT,Homme,[],10,71,UI/L à 37°C
+Glucose,Tous,[],4.1,6,mmol/L
+Glucose,Tous,[],0.74,1.09,g/L
+Glucose (urines),Tous,[],0.06,0.83,mmol/L
+Haptoglobine,Tous,[],0.5,2,g/L
+HbA1C,Tous,[],4,6,% Hb total
+HbA1C,Tous,[],20,42,mmol/molHb
+HDL,Femme,[],1.15,1.68,mmol/L
+HDL,Femme,[],0.4,0.7,g/L
+LDL,Femme,[],2.64,3.94,mmol/L
+LDL,Femme,[],1,1.5,g/L
+HDL,Homme,[],0.9,1.45,mmol/L
+HDL,Homme,[],0.35,0.55,g/L
+LDL,Homme,[],2.89,4.13,mmol/L
+LDL,Homme,[],1.1,1.6,g/L
+Insuline,Tous,[],17.8,173,pmol/L
+Lactate,Tous,[],0.5,2.2,mmol/L
+LDH,4-20J,[],225,600,UI/L à 37°C
+LDH,2-15A,[],120,300,UI/L à 37°C
+LDH,Femme,[],135,214,UI/L à 37°C
+LDH,Homme,[],135,225,UI/L à 37°C
+Lipase,Tous,[],13,60,UI/L à 37°C
+Lipoprotéine (a),Tous,<,,0.3,g/L
+Magnésium,Tous,[],0.66,1.07,mmol/L
+Magnésium (urines),Tous,[],3,5,mmol/durée
+Microalbumine (urines),Tous,<,,20,mg/L
+NT_proBNP,<75A,[],10,125,ng/L
+NT_proBNP,>75A,<,,450,ng/L
+Orosomucoïde,Tous,[],0.5,1.2,g/L
+Osmolalité,Tous,[],292,308,mosm/kg
+Peptide C,Tous,[],0.37,1.47,nmol/L
+pH (urines),Tous,[],4.5,8.2,
+Phosphatases alcalines,0-14J ,[],83,248,UI/L à 37°C
+Phosphatases alcalines,15J-<1A,[],122,469,UI/L à 37°C
+Phosphatases alcalines,1A-<10A,[],142,335,UI/L à 37°C
+Phosphatases alcalines,10A-<13A,[],129,417,UI/L à 37°C
+Phosphatases alcalines,13A-<15A Femme,[],57,254,UI/L à 37°C
+Phosphatases alcalines,13A-<15A Homme,[],116,468,UI/L à 37°C
+Phosphatases alcalines,15A-<17A Femme,[],50,117,UI/L à 37°C
+Phosphatases alcalines,15A-<17A Homme,[],82,331,UI/L à 37°C
+Phosphatases alcalines,17-<19A Femme,[],45,87,UI/L à 37°C
+Phosphatases alcalines,17-<19A Homme,[],55,149,UI/L à 37°C
+Phosphatases alcalines,> 18A Femme,[],35,105,UI/L à 37°C
+Phosphatases alcalines,> 18A Homme,[],40,130,UI/L à 37°C
+Phosphates,0 a 5 J,[],1.25,2.5,mmol/L
+Phosphates,6 J a 1 A,[],1.15,2.15,mmol/L
+Phosphates,1 A a 18 A,[],0.8,1.95,mmol/L
+Phosphates,Tous,[],0.81,1.45,mmol/L
+Phosphates (urines),Tous,[],13,44,mmol/L
+Potassium,Tous,[],3.4,4.5,mmol/L
+Potassium (urines),Tous,[],15,65,mmol/L
+Préalbumine,Tous,[],0.2,0.4,g/L
+Procalcitonine,Tous,[],0,0.05,µg/L
+Protéines,0-7J,[],46,70,g/L
+Protéines,7J-7M,[],44,76,g/L
+Protéines,7M-1A,[],51,73,g/L
+Protéines,1-2A,[],56,75,g/L
+Protéines,3-15A,[],60,80,g/L
+Protéines,>15A,[],64,83,g/L
+Protéines (urines),Tous,[],0.05,0.2,g/L
+Pyruvate,Tous,[],41,67,µmol/L
+Récept.Soluble Transferrine,Femme,[],1.9,4.4,mg/L
+Récept.Soluble Transferrine,Homme,[],2.2,5,mg/L
+Sels biliaires,Tous,[],1,10,µmol/L
+Sodium,Tous,[],136,145,mmol/L
+Sodium (urines),Tous,[],20,150,mmol/L
+Transferrine,Tous,[],2,3.6,g/L
+Triglycérides,Tous,<,,1.7,mmol/L
+Triglycérides,Tous,<,,1.49,g/L
+TroponineT haute sensibilité,Tous,[],3,14,ng/L
+Urée,Tous,[],2.8,8.1,mmol/L
+Urée (urines),Tous,[],286,595,mmol/L

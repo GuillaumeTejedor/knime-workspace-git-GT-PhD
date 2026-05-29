@@ -1,0 +1,57 @@
+PARAMETER,Commentaires
+Date de naissance : [ DOB ] [ STATIC ],Date
+Date du diagnostic : [ DATEDIAG ] [ STATIC ],Date
+premier_rdv_patient [ STATIC ],Date
+Date de début : [ DATDEBET1 ] [ STATIC ],Date
+Date de l'examen : [ DATEXAM ] [ STATIC ],Date
+Date de l'évaluation : [ DATE_MUSC ] [ STATIC ],Date
+Date de l'évaluation : [ DATE_NEURO ] [ STATIC ],Date
+Date de la gastrostomie : [ DATEGASTRO ] [ STATIC ],Date
+Date de début : [ DATEDFAUTEUIL ] [ STATIC ],Date
+Date de début : [ DATEDCOMPLAL ] [ STATIC ],Date
+Date de la V.N.I. : [ DATEVNI ] [ STATIC ],Date
+Date de l'évaluation : [ DATE_RESP_PP ] [ STATIC ],Date
+LAST_DATE_NEW,Date
+nombre_rdv [ STATIC ],
+temps_survie [ STATIC ],Que le temps au diag qui nous interesse il me semble
+temps_suivi [ STATIC ],Que le temps au diag qui nous interesse il me semble
+Taille (cm) : [ HEIGHT ] [ STATIC ],
+IMC : [ BMI ] [ STATIC ],Déjà présent dans données longitudinales
+Score ALS FRS-R : [ ALS ] [ STATIC ],Déjà présent dans données longitudinales
+Parole [ ID733S2V8_ALS_parole ] [ STATIC ],Déjà présent dans données longitudinales
+Salivation [ ID733S2V8_ALS_salivation ] [ STATIC ],Déjà présent dans données longitudinales
+Déglutition [ ID733S2V8_ALS_deglu ] [ STATIC ],Déjà présent dans données longitudinales
+Ecriture (main dominante) [ ID733S2V8_ALS_ecriture ] [ STATIC ],Déjà présent dans données longitudinales
+Sans gastrostomie [ ID733S2V8_ALS_gastroT1_G0 ] [ STATIC ],Déjà présent dans données longitudinales
+Habillage Hygiène [ ID733S2V8_ALS_habillage ] [ STATIC ],Déjà présent dans données longitudinales
+Lit Tourner Ajuster draps [ ID733S2V8_ALS_Lit_draps ] [ STATIC ],Déjà présent dans données longitudinales
+Marche [ ID733S2V8_ALS_marche ] [ STATIC ],Déjà présent dans données longitudinales
+Monte les escalier [ ID733S2V8_ALS_escalier ] [ STATIC ],Déjà présent dans données longitudinales
+Dyspnée [ ID733S2V8_ALS_dyspnée ] [ STATIC ],Déjà présent dans données longitudinales
+Orthopnée [ ID733S2V8_ALS_orthopnée ] [ STATIC ],Déjà présent dans données longitudinales
+Insuffisance respiratoire [ ID733S2V8_ALS_insu_respi ] [ STATIC ],Déjà présent dans données longitudinales
+"Reportez ici, le % de CVF observé par rapport au théorique : [ CVF_OBS-THEO ] [ STATIC ]",
+Poids (kg) : [ WEIGHT_PP ] [ STATIC ],Déjà présent dans données longitudinales
+IMC (kg/m²) : [ BMI_PP ] [ STATIC ],Déjà présent dans données longitudinales
+CVF_ASSIS_OBSV_PP [ STATIC ],Déjà présent dans données longitudinales
+CVF_ASSIS_ESR_PP [ STATIC ],Déjà présent dans données longitudinales
+CVF_ASSIS_THEO_PP [ STATIC ],Déjà présent dans données longitudinales
+CVL_ASSIS_OBSV_PP [ STATIC ],Pense pas que ça soit utile car déjà CVF en longitudinale
+CVL_ASSIS_ESR_PP [ STATIC ],Pense pas que ça soit utile car déjà CVF en longitudinale
+CVL_ASSIS_THEO_PP [ STATIC ],Pense pas que ça soit utile car déjà CVF en longitudinale
+CPT_ASSIS_ESR_PP [ STATIC ],Pense pas que ça soit utile car déjà CVF en longitudinale
+HCO3 (mmol/L) : [ HCO3_PP ] [ STATIC ],"Déjà présent dans données longitudinales je pense avec ce nom : ""HCO3- (gz_HCO3-) (mmol/L)"""
+pH : [ PH_PP ] [ STATIC ],"Déjà présent dans données longitudinales je pense avec ces noms : ""Ca ionise (pH 7.40) (gz_ca_cor) (mmol/L)"" et ""Ph Tau (4PTAU) (ng/L)""."
+Diagnostic : [ DIAG ] [ STATIC ],
+date_dernier_diag [ STATIC ],
+dernier_diag [ STATIC ],
+precedent_diag [ STATIC ],
+decede_? [ STATIC ],
+Essai thérapeutique n° 1 : [ ET1 ] [ STATIC ],
+Nom de l'essai n°1 : [ NAME_ET1 ] [ STATIC ],
+Nom de l'essai n°1 : [ NAME_EC1 ] [ STATIC ],
+Autre mutation : [ AUTRE_MUTATION ] [ STATIC ],
+Type de mutation autre : [ TYPE_AUTRE ] [ STATIC ],Trop de valeurs uniques ont avait dit normalement.
+Réalisé par : [ MEDECIN_PV ] [ STATIC ],
+Le score ALS FRS-R est-il évaluable en intégralité ? [ EVAL__ALS_FRS_R ] [ STATIC ],
+Souhaitez-vous réaliser des évaluations complémentaires ? [ EVAL_COMPL ] [ STATIC ],

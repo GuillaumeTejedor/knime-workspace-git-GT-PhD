@@ -1,0 +1,4 @@
+"FEATURE","median","Q1","Q3","value","ADJUSTED_P_VALUE"
+"ALSFRS-R",41,38,43,"39.9 ± 5.1",0
+"AGE_DEBUT",66,57,72,"64.3 ± 11.2",0.337
+"WEIGHT",70,60,78,"70.1 ± 14.8",0.9

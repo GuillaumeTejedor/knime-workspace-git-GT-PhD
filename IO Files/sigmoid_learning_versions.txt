@@ -1,0 +1,125 @@
+V1 :
+ - fonction sigmoide : b/(1+exp(k*x - a))
+ - paramÃ¨tres sigmoide de dÃ©part : b=48; k=0; a=0
+ - Pas d'espaces de recherche prÃ©dÃ©finis sur les paramÃ¨tres Ã  trouver de la sigmoide.
+ - MÃ©thode de recherche : par dÃ©faut ("lm")
+ - Max d'itÃ©rations : 10000000
+
+V2 :
+ - fonction sigmoide : b/(1+exp(k*(x - a))) + c
+ - paramÃ¨tres sigmoide de dÃ©part : b=48; k=0; a=0; c=0
+ - Pas d'espaces de recherche prÃ©dÃ©finis sur les paramÃ¨tres Ã  trouver de la sigmoide.
+ - MÃ©thode de recherche : par dÃ©faut ("lm")
+ - Max d'itÃ©rations : 10000000
+
+V3 :
+ - fonction sigmoide : 48/(1+exp(k*(x - a))) + c
+ - paramÃ¨tres sigmoide de dÃ©part : k=0; a=0; c=0
+ - Pas d'espaces de recherche prÃ©dÃ©finis sur les paramÃ¨tres Ã  trouver de la sigmoide.
+ - MÃ©thode de recherche : par dÃ©faut ("lm")
+ - Max d'itÃ©rations : 10000000
+
+V4 :
+ - fonction sigmoide : b/(1+exp(k*(x - a))) + c
+ - paramÃ¨tres sigmoide de dÃ©part : b=48; k=0; a=0; c=0
+ - Espace de recherche prÃ©dÃ©finis seulement pour le paramÃ¨tre b entre 0 et 48
+ - MÃ©thode de recherche : par dÃ©faut ("trf" car espace de recherche dÃ©finis)
+ - Max d'itÃ©rations : 10000000
+
+V5 :
+ - fonction sigmoide : b/(1+exp(k*(x - a))) + c
+ - paramÃ¨tres sigmoide de dÃ©part : b=48; k=0.01; a=0; c=0
+ - Pas d'espaces de recherche prÃ©dÃ©finis sur les paramÃ¨tres Ã  trouver de la sigmoide.
+ - MÃ©thode de recherche : par dÃ©faut ("lm")
+ - Max d'itÃ©rations : 10000000
+
+V6 :
+ - fonction sigmoide : b/(1+exp(k*(x - a))) + c
+ - paramÃ¨tres sigmoide de dÃ©part : b=48; k=0; a=0; c=0
+ - Pas d'espaces de recherche prÃ©dÃ©finis sur les paramÃ¨tres Ã  trouver de la sigmoide.
+ - MÃ©thode de recherche : "dogbox"
+ - Max d'itÃ©rations : 10000000
+
+V7 :
+- fonction sigmoide : b/(1+exp(k*(x - a))) + c
+- paramÃ¨tres sigmoide de dÃ©part : b=48; k=0; a=0; c=0
+- Espace de recherche dÃ©finis pour paramÃ¨tre c : entre -infini et 23
+- MÃ©thode de recherche : par dÃ©faut ("trf" car espace de recherche dÃ©fini)
+- Max d'itÃ©rations : 10000000
+
+V8 :
+- fonction sigmoide : b/(1+exp(k*(x - a))) + c
+- paramÃ¨tres sigmoide de dÃ©part : b=48; k=0; a=0; c=0
+- Espace de recherche dÃ©finis : b entre 0 et 48; k entre 0 et 10; a entre 0 et durÃ©e totale sÃ©quence; c entre -infini et 23
+- MÃ©thode de recherche : par dÃ©faut ("trf" car espace de recherche dÃ©fini)
+- Max d'itÃ©rations : 10000000
+
+V9 :
+- fonction sigmoide : b/(1+exp(k*(x - a))) + c
+- paramÃ¨tres sigmoide de dÃ©part : b=48; k=0; a=0; c=0
+- Espace de recherche dÃ©finis : b entre 38 et 48; k entre 0 et 10; a entre 0 et durÃ©e totale sÃ©quence; c entre -10 et et 10
+- MÃ©thode de recherche : par dÃ©faut ("trf" car espace de recherche dÃ©fini)
+- Max d'itÃ©rations : 10000000
+
+V10 :
+- fonction sigmoide : b/(1+exp(k*(x - a))) + c
+- paramÃ¨tres sigmoide de dÃ©part : b=48; k=1.0E-5; a=0; c=0
+- Espace de recherche dÃ©finis : b entre 38 et 48; k entre 0 et 10; a entre 0 et durÃ©e totale sÃ©quence; c entre -10 et et 10
+- MÃ©thode de recherche : par dÃ©faut ("trf" car espace de recherche dÃ©fini)
+- Max d'itÃ©rations : 10000000
+
+V11 :
+- fonction sigmoide : b/(1+exp(k*(x - a))) + c
+- paramÃ¨tres sigmoide de dÃ©part : b=48; k=1.0E-4; a=0; c=0
+- Espace de recherche dÃ©finis : b entre 38 et 48; k entre 0 et 10; a entre 0 et durÃ©e totale sÃ©quence; c entre -10 et et 10
+- MÃ©thode de recherche : par dÃ©faut ("trf" car espace de recherche dÃ©fini)
+- Max d'itÃ©rations : 10000000
+
+V12 :
+- fonction sigmoide : b/(1+exp(k*(x - a))) + c
+- paramÃ¨tres sigmoide de dÃ©part : b=48; k=1.0E-3; a=0; c=0
+- Espace de recherche dÃ©finis : b entre 38 et 48; k entre 0 et 10; a entre 0 et durÃ©e totale sÃ©quence; c entre -10 et et 10
+- MÃ©thode de recherche : par dÃ©faut ("trf" car espace de recherche dÃ©fini)
+- Max d'itÃ©rations : 10000000
+
+V13 :
+- fonction sigmoide : b/(1+exp(k*(x - a))) + c
+- paramÃ¨tres sigmoide de dÃ©part : b=48; k=1.0E-2; a=0; c=0
+- Espace de recherche dÃ©finis : b entre 38 et 48; k entre 0 et 10; a entre 0 et durÃ©e totale sÃ©quence; c entre -10 et et 10
+- MÃ©thode de recherche : par dÃ©faut ("trf" car espace de recherche dÃ©fini)
+- Max d'itÃ©rations : 10000000
+
+V14 :
+- fonction sigmoide : b/(1+exp(k*(x - a))) + c
+- paramÃ¨tres sigmoide de dÃ©part : b=48; k=1.0E-1; a=0; c=0
+- Espace de recherche dÃ©finis : b entre 38 et 48; k entre 0 et 10; a entre 0 et durÃ©e totale sÃ©quence; c entre -10 et et 10
+- MÃ©thode de recherche : par dÃ©faut ("trf" car espace de recherche dÃ©fini)
+- Max d'itÃ©rations : 10000000
+
+V15 :
+- fonction sigmoide : b/(1+exp(k*(x - a))) + c
+- paramÃ¨tres sigmoide de dÃ©part : b=48; k=1.0E-3; a=500; c=0
+- Espace de recherche dÃ©finis : b entre 38 et 48; k entre 0 et 10; a entre 0 et 2778 (durÃ©e de la plus longue sÃ©quence); c entre -10 et et 10
+- MÃ©thode de recherche : par dÃ©faut ("trf" car espace de recherche dÃ©fini)
+- Max d'itÃ©rations : 10000000
+
+V16 :
+- fonction sigmoide : b/(1+exp(k*(x - a))) + c
+- paramÃ¨tres sigmoide de dÃ©part : b=48; k=1.0E-3; a=1000; c=0
+- Espace de recherche dÃ©finis : b entre 38 et 48; k entre 0 et 10; a entre 0 et 2778 (durÃ©e de la plus longue sÃ©quence); c entre -10 et et 10
+- MÃ©thode de recherche : par dÃ©faut ("trf" car espace de recherche dÃ©fini)
+- Max d'itÃ©rations : 10000000
+
+V17 :
+- fonction sigmoide : b/(1+exp(k*(x - a))) + c
+- paramÃ¨tres sigmoide de dÃ©part : b=48; k=1.0E-3; a=1500; c=0
+- Espace de recherche dÃ©finis : b entre 38 et 48; k entre 0 et 10; a entre 0 et 2778 (durÃ©e de la plus longue sÃ©quence); c entre -10 et et 10
+- MÃ©thode de recherche : par dÃ©faut ("trf" car espace de recherche dÃ©fini)
+- Max d'itÃ©rations : 10000000
+
+V18 :
+- fonction sigmoide : b/(1+exp(k*(x - a))) + c
+- paramÃ¨tres sigmoide de dÃ©part : b=48; k=1.0E-3; a=2000; c=0
+- Espace de recherche dÃ©finis : b entre 38 et 48; k entre 0 et 10; a entre 0 et 2778 (durÃ©e de la plus longue sÃ©quence); c entre -10 et et 10
+- MÃ©thode de recherche : par dÃ©faut ("trf" car espace de recherche dÃ©fini)
+- Max d'itÃ©rations : 10000000
