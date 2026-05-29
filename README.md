@@ -12,7 +12,7 @@
 There are 2 knwf files to import into KNIME:
 
 1) data_preparation.knwf : Used to receive raw data and to prepare it
-2) clustering_configuration : Used to cluster patients
+2) Configuration 1 : First configuration for patient clustering
 
 You have to import them into knime in order to use them.
 You have to execute them in order.
