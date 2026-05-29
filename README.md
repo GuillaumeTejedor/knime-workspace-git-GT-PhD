@@ -1,21 +1,18 @@
-# Generative Weak Supervised Distance
+# prerequisite
 
-To use these knwf files, please install KNIME version 5.4.2.
-Once installed, to be able to run python code:
-- Install "KNIME Python Integration" extension on KNIME software.
-- Install Python version: 3.11.1
-- Install necessary librairies: snorkel, scikit-learn, umap-learn, rdp, scikit-learn-extra, lifelines, numpy, pandas, scipy, dask
+- Install KNIME software version 5.8.3.
+- Install python environment with python version 3.13.2. We recommend to install conda or Anaconda to facilitate the linkage between python environment and KNIME software.
+- If you use Conda, install the following conda version: 25.5.1.
+- When lauching KNIME software, select the downloaded folder "knime-workspace-git-GT-PhD" as the workspace.
+- In KNIME software, in "Menu" > "Install Extensions", install the extension named "KNIME Python Integration".
+- In the directory "Exported Workflows", import ".knwf" files into KNIME software. The imported workflows have to be located anywhere into the "knime-workspace-git-GT-PhD" folder.
+- In KNIME software, in "Preferences" > "KNIME" > "Python", select your python environment between "Conda" or "Manual". If you use Conda, please indicate in "KNIME" > "Conda", the Conda installation directory.
+- From your python environment, Install necessary librairies: snorkel, scikit-learn, umap-learn, rdp, scikit-learn-extra, lifelines, numpy, pandas, scipy, dask
 
-We recommend you to link KNIME to Anaconda in order to create conda environments and
-install necessary librairies directly from Anaconda software.
-
-When opening KNIME, choose as working directory the folder "WSD" that you have downloaded from git.
-
-There are 3 knwf files to import into KNIME:
+There are 2 knwf files to import into KNIME:
 
 1) data_preparation.knwf : Used to receive raw data and to prepare it
-2) stratification_concurrents_comparison.knwf : Used to cluster patients
-3) clusters_prediction.knwf : Used to predict clusters of patients from clinical and biological data
+2) clustering_configuration : Used to cluster patients
 
 You have to import them into knime in order to use them.
-You have to execute them in the order.
+You have to execute them in order.
